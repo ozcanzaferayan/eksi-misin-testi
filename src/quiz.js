@@ -1,7 +1,7 @@
 export const quiz = {
   quizTitle: "Ne kadar eksisin?",
   quizSynopsis: "Eksi olup olmadığınızı test edin",
-  nrOfQuestions: "10",
+  nrOfQuestions: "1",
   appLocale: {
     landingHeaderText: "<questionLength> Soru",
     question: "Soru",
@@ -29,8 +29,7 @@ export const quiz = {
       point: "10",
     },
     {
-      question:
-        "Hadi tamam diyelim 15 bin lira yine bir şekilde iş yaparsan verilir. 6 ay yetiştiririz katlanırız yani. Sonuçta 100 bin lira yatırım yapıyoruz. Hangi hakları istersiniz?",
+      question: "Hangi hakları talep ediyorsunuz?",
       questionType: "text",
       questionPic:
         "https://images.unsplash.com/photo-1591522811280-a8759970b03f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300&q=80",

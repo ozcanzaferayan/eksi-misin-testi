@@ -1,18 +1,32 @@
 .react-quiz-container .questionWrapper img {
   width: 100% !important;
-  height: 300px !important;
-}
-.react-quiz-container .tag-container {
-  /* display: none; */
+  height: 200px !important;
+  object-fit: cover;
 }
 
 .react-quiz-container {
   width: unset !important;
   max-width: 400px;
-  margin: 20px !important;
+  margin: 0px !important;
+}
+
+.react-quiz-container .tag-container {
+  /* display: none; */
 }
 
 p,
 h3 {
   margin: 0 !important;
+}
+
+.questionWrapperBody .tag-container,
+.questionWrapperBody > div {
+  margin-inline: 12px;
+}
+.questionWrapperBody h3 {
+  padding-inline: 12px;
+}
+
+.questionWrapperBody {
+  margin-top: 12px;
 }
