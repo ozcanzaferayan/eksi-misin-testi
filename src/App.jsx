@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Quiz from "react-quiz-component";
 
@@ -8,6 +8,9 @@ import { useWindowSize } from "./hooks/useWindowSize";
 
 const ResultPage = (obj) => {
   const { width, height } = useWindowSize();
+  useEffect(() => {
+    document.getElementById("root").style.alignItems = "center";
+  }, []);
 
   return (
     <>

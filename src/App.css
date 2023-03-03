@@ -1,7 +1,7 @@
 #root {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 32px;
   height: 100vh;
 }
 .react-quiz-container .questionWrapper img {
@@ -38,6 +38,6 @@ h3 {
 
 @media screen and (max-width: 600px) {
   #root {
-    align-items: flex-start;
+    margin-top: 0px;
   }
 }
