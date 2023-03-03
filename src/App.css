@@ -1,0 +1,7 @@
+.react-quiz-container .questionWrapper img {
+  width: 400px !important;
+  height: 300px !important;
+}
+.react-quiz-container .tag-container {
+  display: none;
+}
