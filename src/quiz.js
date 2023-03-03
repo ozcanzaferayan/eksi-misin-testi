@@ -139,7 +139,7 @@ export const quiz = {
         "A) Onlar için bi kursa gitmem lazım",
         "B) Efendim, tamam, yaparım",
       ],
-      correctAnswer: 1,
+      correctAnswer: "1",
       point: "10",
     },
   ],
