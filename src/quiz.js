@@ -14,7 +14,7 @@ export const quiz = {
     resultPageHeaderText: "Testi tamamladınız. Sıfır değil eksisiniz",
     resultPagePoint: "You scored <correctPoints> out of <totalPoints>.",
     singleSelectionTagText: "Tek seçim",
-    multipleSelectionTagText: "Çokli seçim",
+    multipleSelectionTagText: "Çoklu seçim",
     pickNumberOfSelection: "<numberOfSelection> adet seçiniz",
   },
   questions: [
@@ -127,7 +127,7 @@ export const quiz = {
         "C) Ingilizce (iyi)",
         "D) Baby Shark (başlangıç)",
       ],
-      correctAnswer: [1, 2, 3, 4],
+      correctAnswer: [1, 2, 3],
       point: "10",
     },
     {

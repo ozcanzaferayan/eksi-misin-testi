@@ -25,6 +25,8 @@ const ResultPage = (obj) => {
 function App() {
   return (
     <Quiz
+      continueTillCorrect={true}
+      showInstantFeedback={false}
       quiz={quiz}
       showDefaultResult={false}
       customResultPage={() => {
