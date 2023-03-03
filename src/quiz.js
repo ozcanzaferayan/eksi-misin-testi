@@ -1,7 +1,7 @@
 export const quiz = {
   quizTitle: "Ne kadar eksisin?",
   quizSynopsis: "Eksi olup olmadığınızı test edin",
-  nrOfQuestions: "1",
+  nrOfQuestions: "10",
   appLocale: {
     landingHeaderText: "<questionLength> Soru",
     question: "Soru",
