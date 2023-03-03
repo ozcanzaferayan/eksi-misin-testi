@@ -1,3 +1,9 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .react-quiz-container .questionWrapper img {
   width: 100% !important;
   height: 200px !important;
@@ -5,8 +11,7 @@
 }
 
 .react-quiz-container {
-  width: unset !important;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0px !important;
 }
 
@@ -29,4 +34,10 @@ h3 {
 
 .questionWrapperBody {
   margin-top: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  #root {
+    align-items: flex-start;
+  }
 }

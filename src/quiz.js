@@ -1,7 +1,7 @@
 export const quiz = {
   quizTitle: "Ne kadar eksisin?",
   quizSynopsis: "Eksi olup olmadığınızı test edin",
-  nrOfQuestions: "10",
+  nrOfQuestions: "1",
   appLocale: {
     landingHeaderText: "<questionLength> Soru",
     question: "Soru",
@@ -121,9 +121,9 @@ export const quiz = {
       answerSelectionType: "multiple",
       questionPic: "babyshark.png",
       answers: [
-        "A) C# (orta)",
-        "B) Android/Java (iyi)",
-        "C) Ingilizce (iyi)",
+        "A) Android/Java (iyi)",
+        "B) Ingilizce (iyi)",
+        "C) C# (orta)",
         "D) Baby Shark (başlangıç)",
       ],
       correctAnswer: [1, 2, 3],

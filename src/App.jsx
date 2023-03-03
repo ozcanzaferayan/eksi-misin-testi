@@ -18,9 +18,7 @@ const ResultPage = (obj) => {
         initialVelocityX={6}
         initialVelocityY={6}
       />
-      <h1 style={{ textAlign: "center", width: `${width}px` }}>
-        Tebrikler, sıfır değil eksisiniz
-      </h1>
+      <h1 style={{ textAlign: "center" }}>Tebrikler, sıfır değil eksisiniz</h1>
     </>
   );
 };
